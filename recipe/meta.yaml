@@ -26,6 +26,8 @@ requirements:
 test:
   requires:
     - pip
+  commands:
+    - pip check
   imports:
     - supafunc
 
