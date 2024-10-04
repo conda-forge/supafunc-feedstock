@@ -21,7 +21,7 @@ requirements:
     - poetry
   run:
     - python >=3.8
-    - httpx >=0.24.0,<0.26
+    - httpx >=0.26.0,<0.28
 
 test:
   requires:
