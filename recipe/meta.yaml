@@ -1,5 +1,5 @@
 {% set name = "supafunc" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2f7b538d52f268dc5cc7e25743085665242ee1cc8b2b2d867ff0bccfea2d1856
+  sha256: 3c8761e3999336ccdb7550498a395fd08afc8469382f55ea56f7f640e5a909aa
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - poetry
   run:
     - python >=3.8
-    - httpx >=0.24.0,<0.26
+    - httpx >=0.26.0,<0.28
 
 test:
   requires:
