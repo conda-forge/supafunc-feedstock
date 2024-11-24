@@ -19,6 +19,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - poetry
+    - setuptools
   run:
     - use python >={{ python_min }}
     - httpx >=0.26.0,<0.28
