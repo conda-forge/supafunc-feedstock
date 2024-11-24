@@ -1,13 +1,13 @@
 {% set name = "supafunc" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5b1c415fba1395740b2b4eedd1d786384bd58b98f6333a11ba7889820a48b6a7
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 9e57d605ccb739ace5e801e1172fb83d15179d0cbe9859298e4bb6704be32aae
 
 build:
   number: 0
