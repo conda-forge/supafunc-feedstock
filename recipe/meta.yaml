@@ -16,15 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - poetry
   run:
-    - python >=3.8
+    - use python >={{ python_min }}
     - httpx >=0.26.0,<0.28
 
 test:
   requires:
+    - python {{ python_min }}
     - pip
   commands:
     - pip check
