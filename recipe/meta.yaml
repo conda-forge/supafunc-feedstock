@@ -23,6 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - httpx >=0.26.0,<0.28
+    - strenum >=0.4.15<0.5
 
 test:
   requires:
